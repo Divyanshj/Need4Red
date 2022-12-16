@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
   $GENDER=$_POST['gender'];
   $BGROUP=$_POST['blood'];
 
-  $servername = "localhost:3307";
+  $servername = "localhost";
   $username = "root";
   $password = "";
   $database = "blood_bank";
