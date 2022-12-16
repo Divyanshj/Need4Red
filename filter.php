@@ -2,7 +2,7 @@
 if ($_SERVER['REQUEST_METHOD']=='POST'){
   $BGROUP=$_POST['bgroup'];
 
-  $servername = "localhost:3307";
+  $servername = "localhost";
   $username = "root";
   $password = "";
   $database = "blood_bank";
